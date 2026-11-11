@@ -20,13 +20,11 @@ code {
     font-size: 1.4rem;
 }
 
-/* Class examples - can be reused */
 .box {
     margin: 20px 0;
     border: 1px solid rgb(0 0 0 / 10%);
     padding: 10px;
     background-color: #ddd;
-    /* this is shorthand for #dddddd */
 }
 
 .highlight {
@@ -34,8 +32,6 @@ code {
     border-radius: 25px;
     padding: 25px;
 }
-
-/* ID examples - should be unique */
 
 #note {
     background-color: #333;
