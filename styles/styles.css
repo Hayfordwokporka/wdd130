@@ -1,24 +1,38 @@
+:root {
+    --primary-color: darkblue;
+    --nav-link-color: white;
+    --border-color: black;
+    --heading-font: Arial, Helvetica, sans-serif;
+    --padding-small: 10px;
+    --padding-medium: 20px;
+    --aside-background: #eee;
+    --aside-text-color: #333;
+    --border-light: rgb(0 0 0 / 0.2);
+    --shadow: 0 0 30px gray;
+}
+
 nav {
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--primary-color);
+    padding: var(--padding-small);
 }
 
 nav a {
-    color: white;
+    color: var(--nav-link-color);
     display: block;
-    padding: 20px;
+    padding: var(--padding-medium);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
+    font-family: var(--heading-font);
 }
 
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--border-color);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--shadow);
 }
 
 p {
@@ -32,10 +46,10 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
+    border: 1px solid var(--border-light);
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: var(--aside-background);
+    color: var(--aside-text-color);
     text-align: center;
 }
 
