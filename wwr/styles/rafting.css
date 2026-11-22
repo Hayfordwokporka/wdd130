@@ -139,7 +139,7 @@ h2 {
 
 .adventure-gallery img {
     width: 100%;
-    height: 120;
+    height: 120px;
     object-fit: cover;
     display: block;
 }
