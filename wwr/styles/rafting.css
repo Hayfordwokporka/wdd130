@@ -221,7 +221,7 @@ footer p {
     gap: 14px;
     margin: 0;
     padding: 0;
-    background-color: transparent;
+    background-color: #00000000;
     border: none;
 }
 
