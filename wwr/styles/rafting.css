@@ -176,3 +176,245 @@ footer p {
     width: 32px;
     height: auto;
 }
+
+/* Contact Us Page */
+.contact-info h2,
+.employees h2,
+.contact-form-section h2 {
+    margin-bottom: 16px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    margin: 16px;
+    padding: 8px;
+}
+
+.contact-details p {
+    margin: 0 0 12px 0;
+    padding: 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 300px;
+    border: 1px solid var(--accent1-color);
+}
+
+.employee-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin: 16px;
+    text-align: center;
+}
+
+.employee-gallery figure {
+    margin: 0;
+}
+
+.employee-gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.employee-gallery figcaption {
+    padding: 8px 0;
+    font-weight: bold;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 16px;
+    padding: 16px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.contact-form label {
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact-form fieldset {
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.contact-form fieldset label {
+    display: block;
+    font-weight: normal;
+    margin: 6px 0;
+}
+
+.contact-form .newsletter {
+    font-weight: normal;
+}
+
+.contact-form button[type="submit"] {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: var(--accent1-color);
+}
+
+/* Contact Us Page - Wireframe Layout */
+.company-info {
+    text-align: center;
+}
+
+.company-info h1 {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+}
+
+.company-info p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+    margin: 16px;
+    padding: 8px;
+}
+
+.map iframe {
+    width: 100%;
+    height: 350px;
+    border: 1px solid var(--accent1-color);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    align-items: start;
+    gap: 10px;
+}
+
+.form-row label {
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    padding: 8px;
+    border: 1px solid var(--accent1-color);
+    border-radius: 4px;
+    font-family: var(--body-font);
+    font-size: 1rem;
+    width: 100%;
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 120px 1fr;
+}
+
+.contact-form fieldset legend {
+    font-weight: bold;
+    float: left;
+}
+
+.contact-form fieldset label {
+    display: block;
+    font-weight: normal;
+    margin: 4px 0;
+    grid-column: 2;
+}
+
+.contact-form .newsletter {
+    font-weight: normal;
+    text-align: left;
+}
+
+.contact-form button[type="submit"] {
+    background-color: #eee;
+    color: #000;
+    border: 1px solid var(--accent1-color);
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button[type="submit"]:hover {
+    background-color: var(--accent2-color);
+}
+
+.employees {
+    border: 1px solid var(--accent1-color);
+    margin: 16px;
+    padding: 16px;
+}
+
+.employees h2 {
+    background-color: transparent;
+    color: #000;
+    margin-bottom: 16px;
+}
+
+.employee-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    text-align: center;
+}
+
+.employee-gallery figure {
+    margin: 0;
+}
+
+.employee-gallery img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.employee-gallery figcaption {
+    padding: 8px 0;
+    font-size: 0.9rem;
+}
